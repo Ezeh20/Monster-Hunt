@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Monster-Hunt/static/css/main.97756714.css",
-    "main.js": "/Monster-Hunt/static/js/main.10b724e6.js",
+    "main.css": "/Monster-Hunt/static/css/main.d675d0c8.css",
+    "main.js": "/Monster-Hunt/static/js/main.6cc6437c.js",
     "static/js/787.c9e2d133.chunk.js": "/Monster-Hunt/static/js/787.c9e2d133.chunk.js",
     "index.html": "/Monster-Hunt/index.html",
-    "main.97756714.css.map": "/Monster-Hunt/static/css/main.97756714.css.map",
-    "main.10b724e6.js.map": "/Monster-Hunt/static/js/main.10b724e6.js.map",
+    "main.d675d0c8.css.map": "/Monster-Hunt/static/css/main.d675d0c8.css.map",
+    "main.6cc6437c.js.map": "/Monster-Hunt/static/js/main.6cc6437c.js.map",
     "787.c9e2d133.chunk.js.map": "/Monster-Hunt/static/js/787.c9e2d133.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97756714.css",
-    "static/js/main.10b724e6.js"
+    "static/css/main.d675d0c8.css",
+    "static/js/main.6cc6437c.js"
   ]
 }
