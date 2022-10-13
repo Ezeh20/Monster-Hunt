@@ -1,0 +1,14 @@
+.cards{
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    row-gap: 1.5rem;
+    border-radius: 10px;
+    transition: linear all .3s;
+}
+.cards:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: linear all .3s;
+}
