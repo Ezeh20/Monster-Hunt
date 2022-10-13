@@ -1,19 +1,28 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Header from './Components/HeaderComponent/header-component';
+import CardList from './Components/CardListComponent/cardlist-component';
 class App extends Component{
   constructor(){
     super();
 
-    this.state = {
-      name : "ezeh"
+    this.state ={
+      monsters : []
     }
   }
+
+  // This will return when the page is rendered
+  componentDidMount(){
+    fetch('https://jsonplaceholder.typicode.com/users')
+    .then(Response => Response.json())
+    .then(users => { this.setState(() => { return({ monsters : users})})})
+  }
+
   render(){
     return (
       <div className="App">
-        <h1>{ this.state.name }</h1>
-        <button onClick={()=> {this.setState({ name : "tayo" })}}>Click me</button>
+        <Header />
+        <CardList monsters = {this.state.monsters}/>
       </div>
     );
   }
