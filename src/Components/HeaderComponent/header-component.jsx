@@ -4,6 +4,7 @@ import SearchBar from "../SearchBarComponent/searchbar-component";
 class Header extends Component{
 
     render(){
+        const {search} = this.props
         return(
             <div>
                 <header className="header">
@@ -17,7 +18,7 @@ class Header extends Component{
                             <li className="list">some-nav</li>
                         </ul>
                       </div>
-                      <SearchBar />
+                      <SearchBar searchBar={search} holdplace={`search monsters`}/>
                     </nav>
                 </header>
             </div>

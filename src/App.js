@@ -7,9 +7,16 @@ class App extends Component{
     super();
 
     this.state ={
-      monsters : []
+      monsters : [],
+      searchField : ''
     }
   }
+
+  searchChange = e =>{
+    this.setState(() => {return (
+     {searchField : e.target.value}
+    )})
+ }
 
   // This will return when the page is rendered
   componentDidMount(){
@@ -19,10 +26,12 @@ class App extends Component{
   }
 
   render(){
+    const {monsters, searchField} = this.state
+    const filtered = monsters.filter((filter) => filter.name.toLowerCase().includes(searchField.toLowerCase()))
     return (
       <div className="App">
-        <Header />
-        <CardList monsters = {this.state.monsters}/>
+        <Header search={this.searchChange}/>
+        <CardList monsters = {filtered}/>
       </div>
     );
   }
