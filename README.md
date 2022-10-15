@@ -12,7 +12,8 @@ parts of the app in an unpredictable manner because of the multidirectional flow
 # React concepts that changed the game.
 - Declarative
 - Component based system
-- Unidirectional flow of data 
+- Unidirectional flow of data
+- Just the User Interface the rest is up to you
 # Declarative
 &nbsp; &nbsp;The developers at facebook came up with the idea of a virtual DOM. The virtual DOM is painted by the react library all the developer
 needs to do is to define the states of the web app then the react library wiil paint a blueprint using the current state of the 
@@ -32,3 +33,6 @@ as needed. Components can also contain smaller components thereby further breaki
 &nbsp; &nbsp;In react, data flows from top to down, our worker (react bot) lurks under the hood monitoring events that occurs in the app.If an event that changes 
 a state is triggered, the bot intercepts that event, moves to the state of the app then changes the state.This then causes the app to rerender based on the current 
 state.
+&nbsp; &nbsp;This one way data flow sloved the problem Angular js had, now diffrent parts of the app will behave in a predictable manner
+# Just the User Interface the rest is up to you
+&nbsp; &nbsp;React is only concerned with the view of the app leaving you with the power to include other modules you may need to develop complex app the way you desire
