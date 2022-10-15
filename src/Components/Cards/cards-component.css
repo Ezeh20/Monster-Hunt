@@ -6,9 +6,34 @@
     row-gap: 1.5rem;
     border-radius: 10px;
     transition: linear all .3s;
+    
 }
 .cards:hover{
     cursor: pointer;
     transform: scale(1.03);
     transition: linear all .3s;
+}
+
+@media screen and (max-width : 900px) {
+    .cards{
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width : 570px) {
+    .cards{
+        padding: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width : 370px) {
+    .cards{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width : 300px) {
+    .cards{
+        padding: .5rem;
+    }
 }

@@ -8,7 +8,7 @@ class CardList extends Component{
     render(){
         const {monsters} = this.props 
         return(
-            <div>
+            <div className="cad">
                 <h1 className="heading">Monster Hunt</h1>
                 <div className="cardList">
                    {monsters.map((monster) => { return( 
