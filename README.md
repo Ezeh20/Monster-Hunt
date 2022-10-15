@@ -13,4 +13,4 @@ parts of the app in an unpredictable manner because of the multidirectional flow
 - Declarative
 - Component based system
 - Unidirectional flow of data 
-#Declarative
+# Declarative
