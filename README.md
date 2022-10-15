@@ -10,3 +10,6 @@ the necessary blocks which made development faster but there was a problem, diff
 parts of the app in an unpredictable manner because of the multidirectional flow of data.
 
 # React concepts that changed the game.
+- Declarative
+- Component based system
+- Unidirectional flow of data 
