@@ -20,3 +20,4 @@ app and the required component.The react bot is our worker tool who then manipul
 by the react library there by rendering what is intended. This way the developer does not need to touch the DOM as the react bot will handle 
 this hence making life easier.
 # Component based system
+This system encourages the break down  of the app into smaller reusable units (components) , where these components can be used anywhere in the app as many times as needed
