@@ -18,4 +18,5 @@ The developers at facebook came up with the idea of a virtual DOM. The virtual D
 needs to do is to define the states of the web app then the react library wiil paint a blueprint using the current state of the 
 app and the required component.The react bot is our worker tool who then manipulates the real DOM using the blueprint generated 
 by the react library there by rendering what is intended. This way the developer does not need to touch the DOM as the react bot will handle 
-this
+this hence making life easier.
+# Component based system
