@@ -27,4 +27,8 @@ as needed. Components can also contain smaller components thereby further breaki
 - It provides increase in performance since our app is broken into simplier smaller units
 - It makes testing less complex
 - The app is flexible due to the fact that components can be used anywhere in the app
-- Seperation of concern : each component is handles one function and one function allow which makes it easier to debug
+- Seperation of concern : each component is handles one function and one function allow <br/> which makes it easier to debug
+# Unidirectional flow of data
+&nbsp; &nbsp;In react, data flows from top to down, our worker (react bot) lurks under the hood monitoring events that occurs in the app.If an event that changes 
+a state is triggered, the bot intercepts that event, moves to the state of the app then changes the state.This then causes the app to rerender based on the current 
+state.
