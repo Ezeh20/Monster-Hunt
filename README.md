@@ -21,4 +21,10 @@ by the react library there by rendering what is intended. This way the developer
 this hence making life easier.
 # Component based system
 &nbsp; &nbsp;This system encourages the break down  of the app into smaller reusable units (components) , where these components can be used anywhere in the app as many times 
-as needed. Components can also contain smaller components thereby further breaking the app into smaller units
+as needed. Components can also contain smaller components thereby further breaking the app into smaller units.<br/>
+&nbsp; &nbsp;Components are js functions that receives props then returns the needed content thereby making each component responsible for it's own state which.
+# Advantages of a Component based system
+- It provides increase in performance since our app is broken into simplier smaller units
+- It makes testing less complex
+- The app is flexible due to the fact that components can be used anywhere in the app
+- Seperation of concern : each component is handles one function and one function allow which makes it easier to debug
