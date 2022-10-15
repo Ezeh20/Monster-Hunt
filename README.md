@@ -14,3 +14,7 @@ parts of the app in an unpredictable manner because of the multidirectional flow
 - Component based system
 - Unidirectional flow of data 
 # Declarative
+The developers at facebook came up with the idea of a virtual DOM. The virtual DOM is painted by the react library all the developer <br/>
+needs to do is to define the states of the web app then the react library wiil paint a blueprint using the current atate of the <br/>
+app and the required component.The react bot is our worker tool who then manipulates the real DOM using the blueprint generated <br/>
+by the react library
